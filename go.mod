@@ -1,9 +1,9 @@
-module fastlrys
+module github.com/Kasesiki/fastlrys
 
 go 1.26
 
 require (
-	github.com/Xiaxiaobaii/autotool v1.0.4
+	github.com/Kasesiki/autotool v1.0.4
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/kardianos/service v1.2.4 // indirect
 	github.com/valyala/fasthttp v1.58.0
