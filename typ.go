@@ -1,7 +1,7 @@
 package fastlrys
 
 import (
-	tool "github.com/Xiaxiaobaii/autotool"
+	tool "github.com/Kasesiki/autotool"
 
 	"github.com/valyala/fasthttp"
 	"golang.org/x/time/rate"
@@ -20,15 +20,14 @@ type Server struct {
 	maxBodySize int
 	ifHttp      bool
 	listenIpv6  bool
-	HSTS 	    bool
-	QOS			QosSetting
+	HSTS        bool
+	QOS         QosSetting
 }
 
 type QosSetting struct {
-	QosNumber   int
-	QosBucket   map[string]*rate.Limiter
-	QosBursts   int
-
+	QosNumber int
+	QosBucket map[string]*rate.Limiter
+	QosBursts int
 }
 
 type RequestCtx struct {

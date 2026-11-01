@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	tool "github.com/Xiaxiaobaii/autotool"
+	tool "github.com/Kasesiki/autotool"
 	"github.com/dgrr/http2"
 	"github.com/fasthttp/websocket"
 

@@ -3,7 +3,8 @@ package fastlrys
 import (
 	"time"
 
-	tool "github.com/Xiaxiaobaii/autotool"
+	tool "github.com/Kasesiki/autotool" 
+	
 	"github.com/valyala/fasthttp"
 	"golang.org/x/time/rate"
 )

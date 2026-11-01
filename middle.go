@@ -1,7 +1,7 @@
 package fastlrys
 
 import (
-	tool "github.com/Xiaxiaobaii/autotool"
+	tool "github.com/Kasesiki/autotool"
 )
 
 func RequestLog(ctx *RequestCtx) {

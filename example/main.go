@@ -1,6 +1,6 @@
 package main
 
-import "fastlrys"
+import "github.com/Kasesiki/fastlrys"
 
 func main() {
 	Server := fastlrys.New(80)

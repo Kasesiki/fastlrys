@@ -60,15 +60,15 @@ func (c *WebSocketConn) Read() (messageType int, p []byte, err error) {
 	return c.conn.ReadMessage()
 }
 
-var (
-	newline = []byte{'\n'}
-	space   = []byte{' '}
-)
+// var (
+// 	newline = []byte{'\n'}
+// 	space   = []byte{' '}
+// )
 
-var upgrader = websocket.FastHTTPUpgrader{
-	ReadBufferSize:  1024,
-	WriteBufferSize: 1024,
-}
+// var upgrader = websocket.FastHTTPUpgrader{
+// 	ReadBufferSize:  1024,
+// 	WriteBufferSize: 1024,
+// }
 
 // readRemote pumps messages from the websocket connection to the hub.
 //

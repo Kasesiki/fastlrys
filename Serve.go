@@ -1,10 +1,11 @@
 package fastlrys
 
 import (
-	tool "github.com/Xiaxiaobaii/autotool"
 	"encoding/json"
 	"mime/multipart"
 	"os"
+
+	tool "github.com/Kasesiki/autotool"
 
 	"github.com/valyala/fasthttp"
 )
